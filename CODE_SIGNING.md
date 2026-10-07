@@ -35,7 +35,7 @@ $ErrorActionPreference = 'Stop'
 $ExpectedSha256 = '237BFA480A1489E23BAF28FF8A989F219DF6229FA59FA451D707C6D728919B13'
 $ExpectedThumbprint = 'A2BD4071D5153B7C0E8849A95F47937810C6BA37'
 $CerPath = (Resolve-Path -LiteralPath './T-Pendlebury-code-signing.cer').Path
-$InstallerPath = (Resolve-Path -LiteralPath './ModernisationToolkitAUNZ-stable-Setup.exe').Path
+$InstallerPath = (Resolve-Path -LiteralPath './ModernisationToolkitAUNZDesktop-stable-Setup.exe').Path
 if ((Get-FileHash -LiteralPath $CerPath -Algorithm SHA256).Hash -cne $ExpectedSha256) { throw 'Certificate fingerprint mismatch. Stop.' }
 $Cert = [Security.Cryptography.X509Certificates.X509Certificate2]::new($CerPath)
 try {
