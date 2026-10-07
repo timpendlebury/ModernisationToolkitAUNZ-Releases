@@ -23,3 +23,7 @@ Open **Settings → Support → Check for updates** in the installed Toolkit. Fi
 ## Repository contents
 
 This repository holds public distribution documentation, Windows installers and update feeds. It does not contain application source, customer project files, user settings or publication credentials.
+
+## Signed installer verification
+
+The Toolkit uses the existing T. Pendlebury code-signing identity. Read the [verification and optional trust instructions](CODE_SIGNING.md), download the [public certificate](T-Pendlebury-code-signing.cer), and check its [SHA-256 fingerprint](CERTIFICATE-SHA256SUMS).
