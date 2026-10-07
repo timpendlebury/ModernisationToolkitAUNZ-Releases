@@ -1,0 +1,1 @@
+Modernisation Toolkit AUNZ is an independently developed third-party tool. It is not an official Siemens product and is not sponsored, endorsed or supported by Siemens AG. The software is provided as-is and is used at the user's own risk. Users should maintain appropriate project backups and review/validate changes before applying them.
