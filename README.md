@@ -2,6 +2,8 @@
 
 Windows installers and the stable update feed for Modernisation Toolkit AUNZ. Application source is maintained in a separate private repository.
 
+> Modernisation Toolkit AUNZ is an independently developed third-party tool. It is not an official Siemens product and is not sponsored, endorsed or supported by Siemens AG. The software is provided as-is and is used at the user's own risk. Users should maintain appropriate project backups and review/validate changes before applying them.
+
 ## Download and install
 
 The current stable release is [Modernisation Toolkit AUNZ 0.1.1](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.1.1).
