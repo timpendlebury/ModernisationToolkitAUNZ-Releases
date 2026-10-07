@@ -4,9 +4,9 @@ Windows installers and the stable update feed for Modernisation Toolkit AUNZ. Ap
 
 ## Download and install
 
-The first release is being prepared. Published installers will be available on the [Releases page](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases).
+The current stable release is [Modernisation Toolkit AUNZ 0.1.1](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.1.1).
 
-Download `ModernisationToolkitAUNZ-stable-Setup.exe` from a published release and run it on Windows x64. The installer includes the .NET runtime. The `.nupkg` and `releases.stable.json` assets support Velopack updates.
+Download the [signed Windows x64 installer](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/ModernisationToolkitAUNZDesktop-stable-Setup.exe) and run it on Windows x64. The installer includes the .NET runtime. The `.nupkg` and `releases.stable.json` assets support Velopack updates.
 
 ## Prerequisites
 
