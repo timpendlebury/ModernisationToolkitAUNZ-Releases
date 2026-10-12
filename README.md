@@ -20,6 +20,8 @@ The current stable release is [Modernisation Toolkit AUNZ 0.1.3](https://github.
 
 Download the [signed Windows x64 installer](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/ModernisationToolkitAUNZDesktop-stable-Setup.exe) and run it on Windows x64. The installer includes the .NET runtime. The `.nupkg` and `releases.stable.json` assets support Velopack updates.
 
+The [public code-signing certificate](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/T-Pendlebury-code-signing.cer) is also available under the release's **Assets**. Follow the [verification and optional trust instructions](CODE_SIGNING.md) before choosing whether to trust the publisher.
+
 ## Prerequisites
 
 - Microsoft Excel for live workbook features.
@@ -38,4 +40,4 @@ This repository holds public distribution documentation, Windows installers and 
 
 ## Signed installer verification
 
-The Toolkit uses the existing T. Pendlebury code-signing identity. Read the [verification and optional trust instructions](CODE_SIGNING.md), download the [public certificate](T-Pendlebury-code-signing.cer), and check its [SHA-256 fingerprint](CERTIFICATE-SHA256SUMS).
+The Toolkit uses the existing T. Pendlebury code-signing identity. Read the [verification and optional trust instructions](CODE_SIGNING.md), download the [public certificate](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/T-Pendlebury-code-signing.cer), and check its [SHA-256 fingerprint](CERTIFICATE-SHA256SUMS).

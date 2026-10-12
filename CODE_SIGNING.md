@@ -7,7 +7,7 @@ require IT approval; trust for one account does not apply to every account or
 policy context. SmartScreen may still warn, and Smart App Control or enterprise
 policy may block the application. Do not disable protections.
 
-Download the installer and **T-Pendlebury-code-signing.cer**. The .cer contains
+Download the installer and [**T-Pendlebury-code-signing.cer**](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/T-Pendlebury-code-signing.cer) from the release's **Assets**. The .cer contains
 only the public certificate. You must never receive or import a PFX, private
 key or signing password to use this application. The certificate/fingerprint
 are separate from Velopack's installer, update package and feed.
