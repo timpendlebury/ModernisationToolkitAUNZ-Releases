@@ -66,7 +66,8 @@ If you decline this trust choice, do not import the certificate.
 
 Finish your Toolkit work and close the application before running a newer
 Setup installer. Version checks and the release download link are under
-**Settings → Support**.
+**Settings → About and Updates** in version 0.1.2 and later. Version 0.1.1 has
+its original manual version check under **Settings → Support**.
 
 To revoke your current-user trust later, this independent block removes only
 the exact public certificate from those two stores:

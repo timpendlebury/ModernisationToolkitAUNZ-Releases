@@ -16,7 +16,7 @@ The Toolkit helps building-automation engineers prepare, review and import legac
 
 ## Download and install
 
-The current stable release is [Modernisation Toolkit AUNZ 0.1.2](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.1.2).
+The current stable release is [Modernisation Toolkit AUNZ 0.1.3](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.1.3).
 
 Download the [signed Windows x64 installer](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/ModernisationToolkitAUNZDesktop-stable-Setup.exe) and run it on Windows x64. The installer includes the .NET runtime. The `.nupkg` and `releases.stable.json` assets support Velopack updates.
 
