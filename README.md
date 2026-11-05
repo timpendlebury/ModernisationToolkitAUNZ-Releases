@@ -16,7 +16,7 @@ The Toolkit helps building-automation engineers prepare, review and import legac
 
 ## Download and install
 
-The current stable release is [Modernisation Toolkit AUNZ 0.1.3](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.1.3).
+The current stable release is [Modernisation Toolkit AUNZ 0.1.4](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.1.4).
 
 Download the [signed Windows x64 installer](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/ModernisationToolkitAUNZDesktop-stable-Setup.exe) and run it on Windows x64. The installer includes the .NET runtime. The `.nupkg` and `releases.stable.json` assets support Velopack updates.
 
@@ -33,6 +33,10 @@ These products are installed separately.
 ## Updates
 
 From version 0.1.2, installed Toolkit builds check for updates each time the main window opens. Open **Settings → About and Updates** for the installed/latest version, **Check for updates**, **Download update**, **Restart and Update**, and **Open releases**. Downloads run while you work. Save or export your mappings and results, finish active operations, and close the ABT project before restarting. Updates apply only after the Toolkit has exited cleanly; an interrupted shutdown postpones the update. If the restart cannot be qualified, use **Open releases** to download Setup.exe, finish your work and close the Toolkit before installing it. Version 0.1.1 has a manual check under **Settings → Support** and needs the newer installer to gain these controls. Preserve project backups and review migration outputs before applying changes to an ABT project.
+
+## Anonymous usage reporting
+
+From version 0.1.4, normal Toolkit runs report anonymous launch counts, Windows country or region, and Apogee, Desigo and P1 Gateway import outcomes, point totals and duration to PostHog. Reporting is enabled by default; turn it off in **Settings → General → Share anonymous usage with PostHog**. Usage events exclude customer, project and controller names, source content, filenames and paths. Country or region comes from the Windows setting rather than physical location.
 
 ## Repository contents
 
