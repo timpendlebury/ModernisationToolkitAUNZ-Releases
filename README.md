@@ -16,7 +16,7 @@ The Toolkit helps building-automation engineers prepare, review and import legac
 
 ## Download and install
 
-The current stable release is [Modernisation Toolkit AUNZ 0.1.4](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.1.4).
+The current stable release is **0.2.1**. In Apogee Controller Migration, the Modbus tab can export a CommTool XML application as an ABT Site `.ioopt` file, either on its own or when a TX-I/O import completes. [Modernisation Toolkit AUNZ 0.2.1 release notes](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/tag/v0.2.1)
 
 Download the [signed Windows x64 installer](https://github.com/timpendlebury/ModernisationToolkitAUNZ-Releases/releases/latest/download/ModernisationToolkitAUNZDesktop-stable-Setup.exe) and run it on Windows x64. The installer includes the .NET runtime. The `.nupkg` and `releases.stable.json` assets support Velopack updates.
 
